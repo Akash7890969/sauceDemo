@@ -31,4 +31,11 @@ await this.page.waitForLoadState('domcontentloaded');
 
 }
 
+async productGit():Promise<Locator>{
+await this.page.waitForLoadState('domcontentloaded');
+    return this.productTxt;
+
+
+}
+
 }
